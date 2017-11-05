@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.map {
+  height: 95%;
+  width: 100%;
+  position: absolute !important;
+  /* display: none; */
+  visibility: hidden;
+ }
+ .map-active {
+   visibility: visible !important;
+ }

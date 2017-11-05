@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Gps Practice</title>
+</head>
+<body>
+  <div class="opciones">
+    <button id="yo" class="btn-map">¿Donde me encuentro?</button>
+    <button id="normal" class="btn-map">Mapa Normal</button>
+    <button id="creador" class="btn-map">¿Donde vive el creador?</button>
+    <button id="amor" class="btn-map">¿Donde vive la que te gusta?</button>
+  </div>
+    <div id="map-yo" class="map"></div>
+    <div id="map-normal" class="map"></div>
+    <div id="map-creador" class="map">
+      <img src="https://maps.googleapis.com/maps/api/staticmap?center=-10.6607781,-76.2523706&zoom=13&size=600x400"> <!-- Crees que es aqui donde vivo?-->
+    </div>
+    <div id="map-amor" class="map">
+      <h1>Krnal' Apoko' creias que iba a mostrarse en el mapa? Ella no te quiere!!! Dejala ir :'v</h1>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="maps.js"></script>
+  <script src="interacciones.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-pE20QTv9aBhWrV0Mdm_kcRXuMhkYyZc&callback=initMap"></script>
+</body>
+</html>
